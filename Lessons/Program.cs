@@ -7,10 +7,11 @@ namespace Lessons
     {
         static void Main()
         {
-           Console.WriteLine("Hellow World");
+           Console.WriteLine("Hellow Otter");
 
             PayPal.Pay(100);
             PayPal.Pay(50);
+            PayPal.Pay(500);
         }
     }
 }
